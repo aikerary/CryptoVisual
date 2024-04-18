@@ -5,4 +5,5 @@ main{
     align-items: center;
     /* Get a padding up and bottom 40px */
     padding: 40px 0;
+    position: relative;
 }

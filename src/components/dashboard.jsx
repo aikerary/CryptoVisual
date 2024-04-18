@@ -1,11 +1,15 @@
 import React from 'react';
+import Card from './card';
 import './css/dashboard.css';
 
 class Dashboard extends React.Component {
     render() {
         return (
             <main>
-                <h1>Hello World</h1>
+                {/* Card with prop Bitcoin */}
+                <Card cryptoName="Bitcoin" />
+                {/* Card with prop Ethereum */}
+                <Card cryptoName="Ethereum" />
             </main>
         );
     }
