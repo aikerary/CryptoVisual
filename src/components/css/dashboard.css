@@ -3,4 +3,6 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* Get a padding up and bottom 40px */
+    padding: 40px 0;
 }
