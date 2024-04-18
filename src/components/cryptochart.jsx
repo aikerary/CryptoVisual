@@ -48,7 +48,7 @@ const CryptoChart = ({ cryptoId }) => {
 
   return (
     <div className="chart-container">
-      <Line data={chartData} />
+      <Line data={chartData} position={"relative"}/>
     </div>
   );
 };
