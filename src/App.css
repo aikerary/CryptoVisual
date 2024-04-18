@@ -1,0 +1,24 @@
+/* Import Open Sans from google */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* Get the root some variable colors */
+:root{
+    --primary: #f12711;
+    --secondary: #f5af19;
+    --white: #fff;
+    --black: #000;
+    --font-primary: 'Open Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    font-family: var(--font-primary);
+    background-color: var(--white);
+    color: var(--black);
+}
